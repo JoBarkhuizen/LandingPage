@@ -57,7 +57,7 @@ body {
         font-weight: bold;
        }
   
-    .nav-link {
+    .links {
         position: absolute;
         margin: 20px;
         width: auto;
@@ -67,7 +67,6 @@ body {
        }
     article {
         width: 940px;
-       
         margin-left: 10px;
         border: solid thin;
         background-color: #fff;
@@ -94,18 +93,16 @@ body {
     
  <header id="header">
      <img id="header-img" src="pexels-photo-2547231%20-%20Copy.jpeg" width="50" height="20" alt="Header Image">
-         <nav id="nav-bar">
-        
          
-  
-    <div class="nav-link">
-    <a id="about" href="about">About</a>
-      <a id="history" href="history">History</a>
-      <a id="watch" href="watch">Watch</a>
-      <a id="news" href="news">News</a>
+     <nav id="nav-bar">
+      
+    <div class="links">
+        <div class="nav-link"></div>
+    <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#history">History</a>
+      <a class="nav-link" href="#watch">Watch</a>
+      <a class="nav-link" href="#news">News</a>
    </div>
-  
-
     
      </nav>
 </header> 
@@ -114,7 +111,7 @@ body {
     
     
    
-    <h4><a href="#about">About:</a></h4>
+    <h4><div id="about">About:</div></h4>
        
        <ul>
     <li>The Grand Canyon is located in Arizona, United States.</li>
@@ -134,7 +131,7 @@ body {
     </div>
         
         
-   <h4><a href="#history">History:</a></h4>
+   <h4><div id="history">History:</div></h4>
     
 <p>In 1956, the Grand Canyon was the site of the deadliest commercial aviation disaster in history at the time. On the morning of June 30, 1956, two propeller-driven airlines, departed Los Angeles International Airport. Approximately 90 minutes later they collided above the canyon, killing everyone on board these two airplanes.  This accident led to the institution of high-altitude airways.</p>
     
@@ -146,12 +143,12 @@ Your browser does not support the video tag.
 </video>
     </div>
        
-    <p><a href="#watch"></a>A big sunrise view from Yaki Point. Tilts up from O'neills Butte and the South Kaibab Trail to the Tonto Platform, Isis Temple, and the North Rim in the distance. Video provided by: National Park Services:</p>
+    <p><div id="watch"></div>A big sunrise view from Yaki Point. Tilts up from O'neills Butte and the South Kaibab Trail to the Tonto Platform, Isis Temple, and the North Rim in the distance. Video provided by: National Park Services:</p>
     <div>
 
 <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
         
-   <h4><a href="#news">Subscribe:</a></h4>
+   <h4><div id="news">Subscribe:</div></h4>
     <p>Receive free e-mail newsletter: </p>
      
       <p> <label id="email-label" for="email">Email:</label>
