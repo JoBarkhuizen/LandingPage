@@ -30,8 +30,6 @@ body {
         width: 960px;
         margin-right: auto;
         margin-left: auto;
-        border: solid thin;
-        background-color: #ffc;
         }
     
     #header {
@@ -58,7 +56,7 @@ body {
         font-family: arial, sans-serif;
         font-weight: bold;
        }
-    /* Position the navbar container inside the image */
+  
     .nav-link {
         position: absolute;
         margin: 20px;
@@ -103,11 +101,11 @@ body {
          
   
     <div class="nav-link">
-    <a href="#about">About</a>
-      <a href="#history">History</a>
-      <a href="#watch">Watch</a>
-      <a href="#news">News</a>
-    </div>
+    <a id="nav-link" href="about">About</a>
+      <a id="nav-link" href="history">History</a>
+      <a id="nav-link" href="watch">Watch</a>
+      <a id="news" href="news">News</a>
+   </div>
   
 
     
@@ -153,22 +151,21 @@ Your browser does not support the video tag.
     <p><a href="#watch"></a>A big sunrise view from Yaki Point. Tilts up from O'neills Butte and the South Kaibab Trail to the Tonto Platform, Isis Temple, and the North Rim in the distance. Video provided by: National Park Services:</p>
     <div id="form">
 
-<form id="form" method="get" name="myform" action="https://www.freecodecamp.com/email-submit">
+<form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
         
-   <h4><a href="#news">Subscribe:</a></h4>
+   <h4><a id="news">Subscribe:</a></h4>
     <p>Receive free e-mail newsletter: </p>
      
       <p> <label id="email-label" for="email">Email:</label>
          <input type="email" id="email" placeholder="Enter Your Email" size="30" maxlength="256" id="email" required>
-        
-          
-     <input id="submit" type="submit" value="Submit">
-</form>
+                  
+            <input id="submit" type="submit" value="Submit">
+                </form>
     </div>
     
 </article>
 
-
+    </div>
 
 
 
